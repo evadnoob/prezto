@@ -17,7 +17,7 @@ fi
 # Editors
 #
 
-export EDITOR='nano'
+export EDITOR='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
 export VISUAL='nano'
 export PAGER='less'
 
@@ -75,3 +75,6 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
+
+
+echo "you are here(zprofile)"
